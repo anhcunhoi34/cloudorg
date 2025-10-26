@@ -1,0 +1,210 @@
+.mr-2 {
+    margin-right: .5rem !important;
+}
+
+.mt-2 {
+    margin-top: .5rem !important;
+}
+
+.mb-2 {
+    margin-bottom: .5rem !important;
+}
+
+.cloudnest-button-action {
+    display: flex;
+    padding: 20px 10px;
+    background: #ededed;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#modalCustomCloudzone .modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    box-shadow: 0 .25rem .5rem rgba(0,0,0,.5);
+    outline: 0;
+}
+
+#modalCustomCloudzone .modal-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+
+#modalCustomCloudzone .modal-header::before, #modalCustomCloudzone .modal-header::after,
+#modalCustomCloudzone .modal-footer::before, #modalCustomCloudzone .modal-footer::after {
+    display: none;
+}
+
+#modalCustomCloudzone .modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#modalCustomCloudzone .modal-footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-top: 1px solid #e9ecef;
+    border-bottom-right-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+}
+
+.justify-content-between {
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+    -webkit-box-pack: justify !important;
+}
+
+.vong-xoay {
+    color: #eb2f06;
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+
+.vong-xoay div {
+    transform-origin: 32px 32px;
+    -webkit-animation: vong-xoay 1.2s linear infinite;
+    animation: vong-xoay 1.2s linear infinite;
+}
+
+
+.vong-xoay div::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 30px;
+    width: 4px;
+    height: 12px;
+    border-radius: 20%;
+    background: #eb2f06;
+}
+
+.vong-xoay div:nth-child(1) {
+    transform: rotate(0deg);
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+}
+
+.vong-xoay div:nth-child(2) {
+    transform: rotate(30deg);
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+}
+
+.vong-xoay div:nth-child(3) {
+    transform: rotate(60deg);
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+
+.vong-xoay div:nth-child(4) {
+    transform: rotate(90deg);
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+
+.vong-xoay div:nth-child(5) {
+    transform: rotate(120deg);
+    -webkit-animation-delay: -0.7s;
+    animation-delay: -0.7s;
+}
+
+.vong-xoay div:nth-child(6) {
+    transform: rotate(150deg);
+    -webkit-animation-delay: -0.6s;
+    animation-delay: -0.6s;
+}
+
+.vong-xoay div:nth-child(7) {
+    transform: rotate(180deg);
+    -webkit-animation-delay: -0.5s;
+    animation-delay: -0.5s;
+}
+
+.vong-xoay div:nth-child(8) {
+    transform: rotate(210deg);
+    -webkit-animation-delay: -0.4s;
+    animation-delay: -0.4s;
+}
+
+.vong-xoay div:nth-child(9) {
+    transform: rotate(240deg);
+    -webkit-animation-delay: -0.3s;
+    animation-delay: -0.3s;
+}
+
+.vong-xoay div:nth-child(10) {
+    transform: rotate(270deg);
+    -webkit-animation-delay: -0.2s;
+    animation-delay: -0.2s;
+}
+
+.vong-xoay div:nth-child(11) {
+    transform: rotate(300deg);
+    -webkit-animation-delay: -0.1s;
+    animation-delay: -0.1s;
+}
+
+.vong-xoay div:nth-child(12) {
+    transform: rotate(330deg);
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+@-webkit-keyframes vong-xoay {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes vong-xoay {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.cloudzone-area-info {
+    border: 1px solid #cfcfcf;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
