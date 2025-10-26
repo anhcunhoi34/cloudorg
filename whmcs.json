@@ -1,0 +1,24 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-registrars",
+  "name": "cloudnest",
+  "license": "proprietary",
+  "category": "cloudnest",
+  "description": {
+    "name": "Cloudnest",
+    "tagline": "Nhà cung cấp các dịch vụ trên nền tảng điện toán đám mây",
+    "long": ""
+  },
+  "support": {
+    "docs_url": "https://cloudnest.vn/"
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "authors": [
+    {
+      "name": "Cloudnest",
+      "homepage": "https://cloudnest.vn/"
+    }
+  ]
+}
